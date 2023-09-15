@@ -45,9 +45,14 @@
           </ul>
         </nav>
 
-        <div class="menu-icon-button-container">
-          <button type="button" class="menu-icon-button">
-            <svg class="menu-icon" width="24" height="24">
+        <div class="mobile-menu-button-container">
+          <button type="button" class="mobile-menu-button">
+            <svg
+              class="mobile-menu-icon"
+              width="24"
+              height="24"
+              aria-label="mobile menu button icon"
+            >
               <use href="./images/icons.svg#icon-menu"></use>
             </svg>
           </button>
@@ -905,7 +910,7 @@
         modalBackdrop.classList.add('is-hidden');
       });
 
-      const buttonMenu = document.querySelector('.menu-icon-button');
+      const buttonMenu = document.querySelector('.mobile-menu-button');
       const modalMenulWindow = document.querySelector('.modal-menu');
       const buttonMenuClose = document.querySelector('.form-menu-close-button');
 

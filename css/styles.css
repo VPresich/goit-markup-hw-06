@@ -120,13 +120,13 @@ img {
 }
 
 /* Menu */
-.menu-icon-button-container {
+.mobile-menu-button-container {
   display: block;
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
-.menu-icon-button {
+.mobile-menu-button {
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -1175,7 +1175,8 @@ img {
   .container {
     max-width: 1158px;
   }
-  .menu-icon-button-container {
+
+  .mmobile-menu-button-container {
     display: none;
   }
   .menu {
