@@ -244,7 +244,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/people-office@1x.jpg');
+    url('../images/people-office-mobile@1x.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1158,6 +1158,18 @@ img {
   }
 }
 
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .section-about {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/people-office-mobile@2x.jpg');
+  }
+}
+
 /* POINT 2 */
 @media (min-width: 768px) {
   .container {
@@ -1173,8 +1185,14 @@ img {
     display: flex;
     font-style: normal;
   }
+
   .section-about {
     max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/people-office-tablet@1x.jpg');
   }
 
   .section-about .container {
@@ -1225,6 +1243,18 @@ img {
   }
 }
 
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .section-about {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/people-office-tablet@2x.jpg');
+  }
+}
+
 /* POINT 3 */
 @media (min-width: 1158px) {
   .contacts-container {
@@ -1245,6 +1275,11 @@ img {
 
   .section-about {
     padding: 188px 0px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/people-office-desktop@1x.jpg');
   }
 
   .section-about .container {
@@ -1304,12 +1339,14 @@ img {
   }
 }
 
-@media (min-resolution: 192dpi) {
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+  screen and (min-resolution: 2dppx) and (min-width: 1158px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
   .section-about {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/people-office@2x.jpg');
+      url('../images/people-office-desktop@2x.jpg');
   }
 }
