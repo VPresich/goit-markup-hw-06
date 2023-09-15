@@ -897,30 +897,7 @@
       </form>
     </div>
 
-    <script>
-      const buttonOrder = document.querySelector('.button-order');
-      const modalBackdrop = document.querySelector('.modal-backdrop');
-      const buttonClose = document.querySelector('.close-button');
-
-      buttonOrder.addEventListener('click', function () {
-        modalBackdrop.classList.remove('is-hidden');
-      });
-
-      buttonClose.addEventListener('click', function () {
-        modalBackdrop.classList.add('is-hidden');
-      });
-
-      const buttonMenu = document.querySelector('.mobile-menu-button');
-      const modalMenulWindow = document.querySelector('.modal-menu');
-      const buttonMenuClose = document.querySelector('.form-menu-close-button');
-
-      buttonMenu.addEventListener('click', function () {
-        modalMenulWindow.classList.remove('is-hidden');
-      });
-
-      buttonMenuClose.addEventListener('click', function () {
-        modalMenulWindow.classList.add('is-hidden');
-      });
-    </script>
+    <script src="./js/open-close-modal-window.js"></script>
+    <script src="./js/open-close-mobile-menu.js"></script>
   </body>
 </html>
