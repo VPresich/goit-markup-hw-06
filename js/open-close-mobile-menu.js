@@ -3,9 +3,9 @@ const modalMenulWindow = document.querySelector('.mobile-menu');
 const buttonMenuClose = document.querySelector('.mobile-menu-close-button');
 
 buttonMenu.addEventListener('click', function () {
-modalMenulWindow.classList.remove('is-hidden');
+modalMenulWindow.classList.add('is-mobile-menu-open');
 });
 
 buttonMenuClose.addEventListener('click', function () {
-modalMenulWindow.classList.add('is-hidden');
+modalMenulWindow.classList.remove('is-mobile-menu-open');
 });
