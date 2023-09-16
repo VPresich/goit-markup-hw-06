@@ -13,18 +13,21 @@
   --color-menu-icon: #2f2f37;
 
   /* Width */
-  --width-page-mobile: 320px; /* point 1 */
+  --max-width-viewport-mobile: 767px;
   --width-container-mobile: 320px;
-  --width-photo-portfolio-mobile: 288px;
 
   /* Paddings */
   --padding-section-mobile: 96px;
   --gap-mobile: 72px;
 
-  --width-page-tablet: 768px; /* point 2 */
+  --width-photo-portfolio-mobile: 288px;
+
+  --min-width-viewport-tablet: 768px;
   --width-container-tablet: 768px;
 
-  --width-page-desktop: 1440px; /* point 3 */
+  --min-width-viewport-desktop: 1158px;
   --width-container-desktop: 1158px;
+  --max-width-image-background-desktop: 1440px;
+
   --padding-section-desktop: 120px;
 }

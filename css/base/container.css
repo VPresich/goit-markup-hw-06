@@ -1,5 +1,5 @@
 .container {
-  width: 320px;
+  width: var(--width-container-mobile);
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -8,12 +8,12 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: var(--width-container-tablet);
   }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    width: var(--width-container-desktop);
   }
 }

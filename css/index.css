@@ -7,5 +7,4 @@
 @import './layout/header.css';
 @import './layout/section-hero.css';
 @import './layout/modal-window.css';
-/*
-@import "./styles.css";  */
+@import './layout/section-features.css';
