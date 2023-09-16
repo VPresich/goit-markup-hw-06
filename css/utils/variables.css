@@ -1,0 +1,29 @@
+:root {
+    /* Colors */
+    --slate: #434455; /*body text */
+    --iris: #4d5ae5; /* focused, active states, links */
+    --ocean: #404bbf; /* CTAs */
+    --navyblue: #2e2f42; /* shadows, headings*/
+    --lightslate: #8e8f99; /* helper text, deemphasized text */
+    --white: #ffffff; /* header, background, team card */
+    --cloud: #f4f4fd; /* light mode backgraund, light mode dialogs */
+    --cornflower: #e7e9fc; /* hairlines, accent collor */
+    --green: #31d0aa; /* valid fields, success messages*/
+    --dairy: #fcfcfc; /* modal background */
+  
+    /* Width */
+    --width-page-mobile: 320px; /* point 1 */
+    --width-container-mobile: 320px;
+    --width-photo-portfolio-mobile: 288px;
+  
+    /* Paddings */
+    --padding-section-mobile: 96px;
+    --gap-mobile: 72px;
+  
+    --width-page-tablet: 768px; /* point 2 */
+    --width-container-tablet: 768px;
+  
+    --width-page-desktop: 1440px; /* point 3 */
+    --width-container-desktop: 1158px;
+    --padding-section-desktop: 120px;
+  }
